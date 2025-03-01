@@ -1,0 +1,49 @@
+#change-bg {
+    transition: transform 0.2s ease-in-out;
+}
+
+#change-bg:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.completed-btn {
+    transition: background-color 0.2s;
+    border: 2px solid transparent;
+}
+
+.completed-btn:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #3752FD;
+    color: #3752FD;
+}
+
+#clear-log {
+    transition: background-color 0.2s;
+    border: 2px solid transparent;
+}
+
+#clear-log:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+}
+
+#backBtn {
+    transition: background-color 0.2s;
+    border: 2px solid transparent;
+}
+
+#backBtn:hover {
+    background-color: white;
+    color: #3752FD;
+    border: 2px solid #3752FD;
+}
+
+#discover {
+    transition: flex-grow 0.3s;
+}
+
+#discover:hover {
+    flex-grow: 4;
+}
